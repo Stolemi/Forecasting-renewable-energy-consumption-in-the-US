@@ -1,6 +1,6 @@
 ---
 title: "**Determinants and dynamics of renewable energy consumption in the US**"
-author: "Gabriele Bertuzzi (981350), Immo Frieden (1900095441), Adriano Pace (1001273), Emiliano Stolz (980203)"
+author: "Gabriele, Immo, Adriano, Emiliano"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   pdf_document: 
@@ -13,7 +13,7 @@ bibliography: references.bib
 #csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 ---
 ## Abstract
-In this paper we forecast the dynamics of renewable energy consumption in the U.S. market. We considered monthly data on energy and fossil fuels from the US Energy Information Administration (EIA), macroeconomic variables from the FRED database (FED St. Louis) and monthly prices of crude oil and natural gas provided by the World Bank. We performed three variable selection methods in order to reduce the dimensionality of the data: hard tresholding, partial least squares and LASSO. Then, we focused on predictions using a recurrent neural network and a factor model. To estimate the factors we relied on two different approaches: PCA and EM algorithm. We all took part in the design of each step of this paper, however Immo Frieden and Emiliano Stolz contributes in particular on the implementation of hard tresholding, PLS and the factor model, while Gabriele Bertuzzi and Adriano Pace on LASSO and recurrent neural network. The RNN forecasts on the test sample are accurate, as well as the results with the one-factor models.
+In this paper we forecast the dynamics of renewable energy consumption in the U.S. market. We considered monthly data on energy and fossil fuels from the US Energy Information Administration (EIA), macroeconomic variables from the FRED database (FED St. Louis) and monthly prices of crude oil and natural gas provided by the World Bank. We performed three variable selection methods in order to reduce the dimensionality of the data: hard tresholding, partial least squares and LASSO. Then, we focused on predictions using a recurrent neural network and a factor model. To estimate the factors we relied on two different approaches: PCA and EM algorithm. We all took part in the design of each step of this paper, however Immo and Emiliano contributes in particular on the implementation of hard tresholding, PLS and the factor model, while Gabriele and Adriano on LASSO and recurrent neural network. The RNN forecasts on the test sample are accurate, as well as the results with the one-factor models.
 
 
 ## 1. Introduction
